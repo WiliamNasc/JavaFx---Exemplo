@@ -7,8 +7,10 @@
 
 <AnchorPane minHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MyController">
    <children>
-      <Button fx:id="btnFoo" layoutX="160.0" layoutY="138.0" mnemonicParsing="false" onAction="#changeText" text="Change text !" />
+      <Button fx:id="btnN1" layoutX="160.0" layoutY="138.0" mnemonicParsing="false" onAction="#val1" text="1" />
       <Label fx:id="txtBar" layoutX="150.0" layoutY="73.0" text="This text will change" />
       <TextField fx:id="txtResult" layoutX="129.0" layoutY="204.0" />
+      <Button fx:id="btnN2" layoutX="200.0" layoutY="138.0" mnemonicParsing="false" onAction="#val2" text="2" />
+      <Button fx:id="btnSoma" layoutX="252.0" layoutY="138.0" mnemonicParsing="false" onAction="#soma" text="Soma" />
    </children>
 </AnchorPane>
